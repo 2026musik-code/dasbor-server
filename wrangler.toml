@@ -1,0 +1,13 @@
+name = "dasbor-server"
+main = "worker.js"
+compatibility_date = "2024-03-20"
+
+[vars]
+# UUID for the VLESS connection (Default: generated, change this to your own)
+UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+# Optional: Proxy IP to route traffic through (e.g., another CF worker or CDN IP)
+PROXYIP = "178.128.80.43"
+
+# Observability
+[observability]
+enabled = true
